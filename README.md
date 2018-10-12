@@ -72,6 +72,7 @@ man sitting using tool at a table in his home.
 The president comes to China        
 Similarity: 0.1213       
 SER: 0.8787         
+
 vegetable is being sliced.         
 someone is slicing a tomato with a knife on a cutting board.       
 Similarity: 0.3555        
