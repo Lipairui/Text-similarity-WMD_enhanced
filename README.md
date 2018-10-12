@@ -68,35 +68,34 @@ Steps:
 
 ## Example results
 ### English:   
-man sitting using tool at a table in his home.
-The president comes to China
-Similarity: 0.1213
-SER: 0.8787     
+man sitting using tool at a table in his home.       
+The president comes to China        
+Similarity: 0.1213       
+SER: 0.8787         
+vegetable is being sliced.         
+someone is slicing a tomato with a knife on a cutting board.       
+Similarity: 0.3555        
+SER: 0.6445        
 
-vegetable is being sliced.
-someone is slicing a tomato with a knife on a cutting board.
-Similarity: 0.3555
-SER: 0.6445  
-         
-a speaker presents some products
-the speaker is introducing the new products on a fair.
-Similarity: 0.4823
+a speaker presents some products      
+the speaker is introducing the new products on a fair.        
+Similarity: 0.4823       
 SER: 0.5177     
 
 ### Chinese:      
-时间太晚不得就算了
-此间贷款不得就算啦
-Similarity: 0.0903
-SER: 0.9097              
+时间太晚不得就算了       
+此间贷款不得就算啦      
+Similarity: 0.0903     
+SER: 0.9097        
 
-他整天愁眉苦脸
-他和朋友去逛街
-Similarity: 0.1572
-SER: 0.8428      
+他整天愁眉苦脸         
+他和朋友去逛街        
+Similarity: 0.1572         
+SER: 0.8428        
 
-学无止境
-学海无涯，天道酬勤
-Similarity: 0.4049
+学无止境      
+学海无涯，天道酬勤          
+Similarity: 0.4049           
 SER: 0.5951        
 
 
