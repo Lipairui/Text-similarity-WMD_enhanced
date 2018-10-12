@@ -18,13 +18,13 @@ Enhance the Word Mover's Distance algorithm.
 See algorithm details in this paper: 
 "From Word Embeddings To Document Distances": http://proceedings.mlr.press/v37/kusnerb15.pdf
 ### What are the shortcomings of WMD algorithm?
-1.WMD algorithm is time consuming due to the computation of Euclidean distance between word vectors. 
+1.WMD algorithm is time consuming due to the computation of Euclidean distance between word vectors.     
 2.WMD algorithm would compute the distance between two documents, which is difficult to compute similarity in [0,1]   
 ### What are the enhancements?
-WMD_enhanced algorithm compute the Normalized Cosine Distance between word vectors. 
-Steps:
-1. Compute cosine similarity between word vectors as res1
-2. Normalize the value of res1 to [0,1] as res2
+WMD_enhanced algorithm compute the Normalized Cosine Distance between word vectors.     
+Steps:    
+1. Compute cosine similarity between word vectors as res1    
+2. Normalize the value of res1 to [0,1] as res2    
 3. Normalized Cosine Distance = 1-res2
 
 ## Example usage
