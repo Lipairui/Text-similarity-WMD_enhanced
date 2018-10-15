@@ -57,7 +57,7 @@ def filter_words(vocab,doc):
     Output:
         list of filtered words
     '''
-    return [word for word in doc if word in set(vocab)]
+    return [word for word in doc if word in vocab]
 
 def f(x):
     if x<0.0: return 0.0
@@ -127,10 +127,10 @@ def wmd_sim(lang,docs1,docs2):
 #     model = load_word2vec('../model/sgns.baidubaike.bigram-char')
 #     vocab = list(model.keys())
     model = KeyedVectors.load_word2vec_format(model_path,binary=True,unicode_errors='ignore')
-    vocab = list(model.vocab)
+    vocab = model.vocab
 
     # preprocess data
-    stopwords= [w.strip() for w in codecs.open(stopwords_path, 'r',encoding='utf-8').readlines()]
+    stopwords= set(w.strip() for w in codecs.open(stopwords_path, 'r',encoding='utf-8').readlines())
     sims = []
     LogInfo('Calculating similarity...')
     for i in range(len(docs1)):        
